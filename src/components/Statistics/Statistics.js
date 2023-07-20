@@ -15,7 +15,6 @@ class Statistics extends Component {
     const { good, neutral, bad, total, positivePercentage } = this.props;
     return (
       <div className={css['stat']}>
-        <h2 className={css['stat__h']}>Statistics</h2>
         <ul className={css['stat__group']}>
           <li className={css['stat__item']}>
             <span className={css['stat__span']}>Good: {good}</span>
