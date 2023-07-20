@@ -10,10 +10,15 @@ class FeedbackOptions extends Component {
   render() {
     const { options, onLeaveFeedback } = this.props;
     return (
-      <ul className={css['feedbackList']}>
+      <ul className={css['button__group']}>
         {options.map(option => (
           <li key={option} className={css['feedbackItem']}>
-            <button name={option} type="button" onClick={onLeaveFeedback}>
+            <button
+              name={option}
+              type="button"
+              onClick={onLeaveFeedback}
+              className={css['']}
+            >
               {option}
             </button>
           </li>
