@@ -1,5 +1,6 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import css from './FeedbackOptions.module.css';
+import PropTypes from 'prop-types';
 
 class FeedbackOptions extends Component {
   static propTypes = {

@@ -1,5 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import css from './Statistics.module.css';
+import PropTypes from 'prop-types';
+
 class Statistics extends Component {
   static propTypes = {
     good: PropTypes.number.isRequired,
