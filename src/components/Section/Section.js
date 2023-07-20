@@ -9,8 +9,8 @@ class Section extends Component {
   render() {
     const { title, children } = this.props;
     return (
-      <section className="а">
-        <h3 className="h">{title}</h3>
+      <section>
+        <h3>{title}</h3>
         {children}
       </section>
     );
